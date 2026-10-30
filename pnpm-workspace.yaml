@@ -1,0 +1,8 @@
+nodeLinker: hoisted
+storeDir: .sites-runtime/pnpm-store
+virtualStoreType: project
+allowBuilds:
+  esbuild: true
+  workerd: true
+  sharp: true
+  unrs-resolver: set this to true or false
